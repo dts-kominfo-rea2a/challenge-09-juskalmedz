@@ -1,0 +1,33 @@
+.contact-card {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  background-color: white;
+  width: 30%;
+  border-radius: 1em;
+  align-items: center;
+  padding: 1em;
+}
+
+.contact-card:hover {
+  background: bisque;
+  cursor: pointer;
+  box-shadow: 10px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.contact-card img {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 0 0 1em;
+}
+
+.contact-detail h1,
+.contact-detail p {
+  margin: 0;
+}
